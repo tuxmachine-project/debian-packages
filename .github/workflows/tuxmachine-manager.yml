@@ -34,5 +34,5 @@ jobs:
     - run: ./build.sh
     - uses: actions/upload-artifact@v3.1.0
       with:
-        name: packages
-        path: ../packages
+        name: tuxmachine-manager.deb
+        path: tuxmachine-manager.deb

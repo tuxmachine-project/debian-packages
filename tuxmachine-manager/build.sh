@@ -16,13 +16,6 @@ fi
 
 cd manager;./build.sh;cd ..
 
-# if the output directory doesn't exist, create it.
-
-if [ ! -d ../packages ]
-then
-	mkdir ../packages
-fi
-
 # Create package directory using config directory
 
 cp -r config package
@@ -39,4 +32,4 @@ ln -s /usr/share/tuxmachine-manager/tuxmachine-manager package/usr/bin/tuxmachin
 
 # Finally, create a .deb file
 
-dpkg-deb --build package ../packages/tuxmachine-manager.deb
+dpkg-deb --build package tuxmachine-manager.deb
