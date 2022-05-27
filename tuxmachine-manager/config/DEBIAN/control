@@ -1,0 +1,5 @@
+Package: tuxmachine-manager
+Version: 0.0.1
+Architecture: amd64
+Maintainer: thatretrodev
+Description: The system for using & configuring tuxmachine.
