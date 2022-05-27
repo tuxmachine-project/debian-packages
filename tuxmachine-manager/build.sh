@@ -32,4 +32,4 @@ ln -s /usr/share/tuxmachine-manager/tuxmachine-manager package/usr/bin/tuxmachin
 
 # Finally, create a .deb file
 
-dpkg-deb --build package tuxmachine-manager.deb
+dpkg-deb --build package ./tuxmachine-manager.deb
